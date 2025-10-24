@@ -1,22 +1,17 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import numpy as np
 import cv2
 import os
 
 
-# ## Step-by-Step Solution
-# 1. Reading the image. (Do you need to know about libraries, be mature man).
-# 2. Giving the number of rows and columns if image is like the sample one.
-# 3. calculating each images height by dividing it in total number of rows and columns as mentioned.
-# 4. Creating folder to save output images.
-# 5. Lastly, cutting all the pieces or dividing images into total pieces as per number of rows and columns mentioned.
-# 6. Hurray, Work done!
-
+""" 
+Step-by-Step Solution
+1. Reading the image.
+2. Giving the number of rows and columns if image is like the sample one.
+3. calculating each images height by dividing it in total number of rows and columns as mentioned.
+4. Creating folder to save output images.
+5. Lastly, cutting all the pieces or dividing images into total pieces as per number of rows and columns mentioned.
+6. Hurray, Work done!
+"""
 # In[2]:
 
 
@@ -54,7 +49,6 @@ for row in range(num_rows):
 print("Image successfully split into pieces!")
 
 
-# In[ ]:
 
 
 
